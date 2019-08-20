@@ -19,10 +19,11 @@
           to be announced.
           {% endif %}
           </p>
-          {% if page.helper %}
-          <p>
           <strong>Helpers:</strong>
+          {% if page.helper %}
           {{page.helper | join: ', ' %}}
+          {% else %}
+          to be announced.
           </p>
           {% endif %}
         </div>

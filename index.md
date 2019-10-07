@@ -6,11 +6,11 @@ address: "Science park 904, Amsterdam"      # full street address of workshop (e
 country: "The Netherlands"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "Englisch"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latlng: "52.354430,4.956300"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Okt 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "Nov 20-22 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "9:30 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-10-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-10-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Marc","Tijs", "Sofie"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Marc Galland", "Zsófia Koma", "Tijs Bliek"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: #["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["bliek@uva.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -18,7 +18,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
-
+<h1 id="general">Introduction to Open Data Science with R<br><br></h1>
 {% comment %}
 HEADER
 
@@ -64,7 +64,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src=" https://www.eventbrite.com/e/introduction-to-open-data-science-with-r-tickets-75134036927"
   frameborder="0"
   width="100%"
   height="280px"
@@ -81,6 +81,14 @@ INTRODUCTION
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
+{% if page.carpentry == "dc" %}
+{% include dc/intro3.html %}
+{% endif %}
+
+<h3 id="general">Who are we</h3>
+
+
+
 {% if page.carpentry == "swc" %}
 {% include sc/intro.html %}
 {% elsif page.carpentry == "dc" %}
@@ -121,6 +129,25 @@ address.
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
 </p>
 {% endif %}
+
+<p id="rooms">
+  <strong>Rooms:</strong> Unfortunately we were signed to multiple rooms:
+</p>
+<ul>
+  <li>wed. Nov 20 9:00 to 13:00 room A1.10</li>
+  <li>Thu. Nov 21 9:00 to 13:00 room D1.113</li>
+  <li>Thu. Nov 20 13:00 to 15:00 room B0.204</li>
+  <li>Thu. Nov 20 15:00 to 17:00 room B0.207</li>
+  <li>Fri. Nov 22 9:00 to 13:00 room B0.203</li>
+  <li>Fri. Nov 22 13:00 to 17:00 room B0.209</li>
+<br>
+</ul>
+<p id="includes">
+  <strong>Included:</strong> Coffee and tea will be included, Lunch is <u>not</u> included.
+</p>
+
+
+
 
 {% comment %}
 DATE
@@ -415,7 +442,7 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 {% endcomment %}
-{% comment %}
+
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -478,7 +505,7 @@ please preview your site before committing, and make sure to run
     </div>
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
-{% endcomment %}
+
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>

@@ -5,12 +5,13 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       <h2>{{page.venue}}</h2>
+      <br>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
           <p>{{page.humandate}}</p>
           <p>{% if page.humantime %}{{page.humantime}}{% endif %}</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-7">
           <p>
           <strong>Instructors:</strong>
           {% if page.instructor %}
@@ -19,12 +20,17 @@
           to be announced.
           {% endif %}
           </p>
-          {% if page.helper %}
           <p>
           <strong>Helpers:</strong>
+          {% if page.helper %}
           {{page.helper | join: ', ' %}}
-          </p>
+          {% else %}
+          to be announced.
           {% endif %}
+          </p>
+          <p>
+          <button style="background-color:#f3fa69; border-color:#f3fa69"; onclick="window.location.href = 'https://forms.gle/hzHZQBo2DApFKEdQ9';"><strong>&nbsp;&nbsp;&nbsp;Sign-up&nbsp;&nbsp;&nbsp</strong></button>
+          </p>
         </div>
       </div>
     </div>

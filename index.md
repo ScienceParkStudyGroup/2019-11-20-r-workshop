@@ -204,6 +204,10 @@ special instructions.
   attempt to provide them.
 </p>
 
+<p id="ethetpad">
+  <strong>Etherpad:</strong> The group etherpad to ask question or place commands can be found under this <a href="https://pad.carpentries.org/r-workshop">link</a>
+</p>
+
 {% comment %}
 CONTACT EMAIL ADDRESS
 

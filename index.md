@@ -18,7 +18,9 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
-<h1 id="general">Introduction to Open Data Science with R<br><br></h1>
+<br>
+<br>
+<h1 id="general"><center>Introduction to Open Data Science with R.</center><br></h1>
 {% comment %}
 HEADER
 
@@ -147,8 +149,6 @@ address.
 </p>
 
 
-
-
 {% comment %}
 DATE
 
@@ -233,10 +233,11 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+{% comment %}
 <hr/>
 
 {% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
+SURVEYS - DO NO EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
@@ -250,10 +251,11 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
+{% endcomment %}
 
+<br>
 <hr/>
-
-
+<br>
 {% comment %}
 SCHEDULE
 
@@ -287,7 +289,9 @@ e.g., '2015-06-10-esu'.
 </p>
 {% endif %}
 
+<br>
 <hr/>
+<br>
 
 {% comment %}
 SYLLABUS
@@ -316,7 +320,9 @@ please preview your site before committing, and make sure to run
 {% include lc/syllabus.html %}
 {% endif %}
 
+<br>
 <hr/>
+<br>
 
 {% comment %}
 SETUP
@@ -446,7 +452,7 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'shell' section. {% endcomment %}
 {% endcomment %}
-
+<br>
 <div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatibility
   is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
   <h3>Git</h3>
@@ -510,7 +516,7 @@ please preview your site before committing, and make sure to run
   </div>
 </div> {% comment %} End of 'Git' section. {% endcomment %}
 
-
+<br>
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
 
@@ -680,8 +686,8 @@ please preview your site before committing, and make sure to run
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
-  <h3>R</h3>
-
+<br> 
+ <h3>R</h3>
   <p>
     <a href="https://www.r-project.org">R</a> is a programming language
     that is especially powerful for data exploration, visualization, and

@@ -136,10 +136,10 @@ address.
   <strong>Rooms:</strong> Unfortunately we were signed to multiple rooms:
 </p>
 <ul>
-  <li>wed. Nov 20 9:00 to 13:00 room A1.10</li>
+  <li>Wed. Nov 20 9:00 to 13:00 room A1.10</li>
   <li>Thu. Nov 21 9:00 to 13:00 room D1.113</li>
-  <li>Thu. Nov 20 13:00 to 15:00 room B0.204</li>
-  <li>Thu. Nov 20 15:00 to 17:00 room B0.207</li>
+  <li>Thu. Nov 21 13:00 to 15:00 room B0.204</li>
+  <li>Thu. Nov 21 15:00 to 17:00 room B0.207</li>
   <li>Fri. Nov 22 9:00 to 13:00 room B0.203</li>
   <li>Fri. Nov 22 13:00 to 17:00 room B0.209</li>
 <br>
@@ -207,9 +207,9 @@ special instructions.
   <strong>Helpers:</strong> Experts helping in the room.:
 </p>
 <ul>
-  <li>wed. Nov 20 9:00 to 13:00 Tijs</li>
+  <li>Wed. Nov 20 9:00 to 13:00 Tijs</li>
   <li>Thu. Nov 21 9:00 to 13:00 Stacy</li>
-  <li>Thu. Nov 20 13:00 to 17:00 Stacy</li>
+  <li>Thu. Nov 21 13:00 to 17:00 Stacy</li>
   <li>Fri. Nov 22 9:00 to 13:00 ?</li>
   <li>Fri. Nov 22 13:00 to 17:00 ?</li>
 <br>

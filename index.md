@@ -11,7 +11,7 @@ humantime: "9:30 am - 5:00 pm"    # human-readable times for the workshop (e.g.,
 startdate: 2019-10-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-10-02        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Marc Galland", "Zsófia Koma", "Tijs Bliek"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: #["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Stacy Shinneman"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["bliek@uva.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -179,7 +179,6 @@ CODE OF CONDUCT
 <strong>Code of Conduct:</strong>  Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
 </p>
 
-
 {% comment %}
 ACCESSIBILITY
 
@@ -203,6 +202,18 @@ special instructions.
   get in touch (using contact details below) and we will
   attempt to provide them.
 </p>
+
+<p id="helpers">
+  <strong>Helpers:</strong> Experts helping in the room.:
+</p>
+<ul>
+  <li>wed. Nov 20 9:00 to 13:00 Tijs</li>
+  <li>Thu. Nov 21 9:00 to 13:00 Stacy</li>
+  <li>Thu. Nov 20 13:00 to 17:00 Stacy</li>
+  <li>Fri. Nov 22 9:00 to 13:00 ?</li>
+  <li>Fri. Nov 22 13:00 to 17:00 ?</li>
+<br>
+</ul>
 
 <p id="ethetpad">
   <strong>Etherpad:</strong> The group etherpad to ask question or place commands can be found under this <a href="https://pad.carpentries.org/r-workshop">link</a>

@@ -209,10 +209,10 @@ special instructions.
 </p>
 <ul>
   <li>Wed. Nov 20 9:00 to 13:00 Tijs</li>
-  <li>Thu. Nov 21 9:00 to 13:00 Stacy</li>
-  <li>Thu. Nov 21 13:00 to 17:00 Stacy</li>
-  <li>Fri. Nov 22 9:00 to 13:00 Johannes</li>
-  <li>Fri. Nov 22 13:00 to 17:00 Johannes</li>
+  <li>Thu. Nov 21 9:00 to 13:00 Stacy, Tijs, Marc</li>
+  <li>Thu. Nov 21 13:00 to 17:00 Stacy, Zsófia, Marc</li>
+  <li>Fri. Nov 22 9:00 to 13:00 Johannes, Marc/Tijs</li>
+  <li>Fri. Nov 22 13:00 to 17:00 Johannes, Tijs</li>
 <br>
 </ul>
 

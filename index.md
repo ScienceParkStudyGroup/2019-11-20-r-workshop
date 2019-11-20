@@ -208,10 +208,10 @@ special instructions.
   <strong>Helpers:</strong> Experts helping in the room.:
 </p>
 <ul>
-  <li>Wed. Nov 20 9:00 to 13:00 Tijs</li>
-  <li>Thu. Nov 21 9:00 to 13:00 Stacy, Tijs, Marc, Huub</li>
+  <li>Wed. Nov 20 9:30 to 13:00 Tijs</li>
+  <li>Thu. Nov 21 9:30 to 13:00 Stacy, Tijs, Marc, Huub</li>
   <li>Thu. Nov 21 13:00 to 17:00 Stacy, Zsófia, Marc, Huub</li>
-  <li>Fri. Nov 22 9:00 to 13:00 Johannes, Marc/Tijs</li>
+  <li>Fri. Nov 22 9:30 to 13:00 Stacy, Johannes, Marc/Tijs</li>
   <li>Fri. Nov 22 13:00 to 17:00 Johannes, Tijs</li>
 <br>
 </ul>

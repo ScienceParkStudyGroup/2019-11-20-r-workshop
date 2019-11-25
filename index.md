@@ -245,6 +245,15 @@ Display the contact email address set in the configuration file.
   for more information.
 </p>
 
+<p id="links">
+  <strong>Links to the lesson materials</strong>:  
+<ul>
+ <li>Wednesday morning: <a href="https://datacarpentry.org/spreadsheet-ecology-lesson/">Data Carpentry lesson on spreadsheets</a> </li>
+ <li>Thursday and Friday: <a href="https://scienceparkstudygroup.github.io/r-lesson-based-on-ohi-data-training/">Home-made lesson "Open Science with R"</a> </li>
+</ul>
+</p>
+
+
 {% comment %}
 <hr/>
 
